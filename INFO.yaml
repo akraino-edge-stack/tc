@@ -1,0 +1,53 @@
+---
+project: 'tc'
+project_creation_date: '2019-12-16'
+project_category: ''
+lifecycle_state: 'Incubation'
+project_lead: &akraino_tc_ptl
+    name: ''
+    email: ''
+    id: ''
+    company: ''
+    timezone: ''
+primary_contact: *akraino_tc_ptl
+issue_tracking:
+    type: 'jira'
+    url: 'https://jira.akraino.org/projects/'
+    key: 'tc'
+mailing_list:
+    type: 'groups.io'
+    url: 'technical-discuss@lists.akraino.org'
+    tag: '[]'
+realtime_discussion:
+    type: 'irc'
+    server: 'freenode.net'
+    channel: '#akraino'
+meetings:
+    - type: 'gotomeeting+irc'
+      agenda: 'https://wiki.akraino.org/display/'
+      url: ''
+      server: 'freenode.net'
+      channel: '#akraino'
+      repeats: ''
+      time: ''
+repositories:
+    - tc
+committers:
+    - <<: *akraino_tc_ptl
+    - name: 'Shane Dewing'
+      email: 'shane.dewing@intel.com'
+      company: 'intel'
+      id: 'shane.dewing.intel'
+      timezone: 'Unknown/Unknown'
+    - name: 'Steve Osselton'
+      email: 'steve@iotechsys.com'
+      company: 'iotechsys'
+      id: 'SteveOss'
+      timezone: 'Unknown/Unknown'
+tsc:
+    # yamllint disable rule:line-length
+    approval: 'missing'
+    changes:
+        - type: ''
+          name: ''
+          link: ''
