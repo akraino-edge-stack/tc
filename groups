@@ -1,4 +1,5 @@
 # UUID                                                                	Group Name
 #
 0706f97cf3b2243094a8f24452092769b1065db0                              	GitHub Replication
+3f7753fc008facfbc210bb83c9dbb29171af23c8                              	saml/akraino-gerrit-tc-committers
 ldap:cn=akraino-gerrit-tc-committers,ou=Groups,dc=freestandards,dc=org	ldap/akraino-gerrit-tc-committers
